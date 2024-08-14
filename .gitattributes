@@ -1,0 +1,20 @@
+# Treat all files as text and normalize line endings to CR LF (\r\n)
+# unless explicitly specified otherwise
+*           text eol=crlf
+
+# Source files
+*.cs        diff=csharp
+*.md        diff=markdown
+
+# Binary files
+*.dll       binary
+*.exe       binary
+
+# Graphical formats
+*.png       binary
+*.bmp       binary
+*.jpg       binary
+*.jpeg      binary
+*.svg       binary
+*.gif       binary
+*.ico       binary
